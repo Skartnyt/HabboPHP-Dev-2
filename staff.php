@@ -18,9 +18,9 @@ $tpl->display('header.tpl');
 // Pour ajouter un rang ajoutez cette ligne : array('Nom' => 'Modérateur' , 	'Rank' => '10' , 'Couleur' => 'darkblue'), à l'intérieur du array $rank
 
 $rank = array(
-	array('Nom' => 'Fondateur' , 	'Rank' => '7' , 'Couleur' => 'blue'),
-	array('Nom' => 'Modérateur' , 	'Rank' => '6' , 'Couleur' => '#000'),
-	array('Nom' => 'Codeur' , 		'Rank' => '5' , 'Couleur' => 'red')
+	array('Nom' => 'Fondateur' , 	'Rank' => '8' , 'Couleur' => 'blue'),
+	array('Nom' => 'Modérateur' , 	'Rank' => '7' , 'Couleur' => '#000'),
+	array('Nom' => 'Codeur' , 		'Rank' => '6' , 'Couleur' => 'red')
 ); 
 
 foreach($rank as $ranks){ $minRanks[] = $ranks['Rank'] ; } //On fait un array des ranks
